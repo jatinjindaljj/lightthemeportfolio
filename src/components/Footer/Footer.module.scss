@@ -1,0 +1,11 @@
+.footerContainer {
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & > a {
+    padding: 1vh;
+    margin: 0.5vh 0;
+  }
+}

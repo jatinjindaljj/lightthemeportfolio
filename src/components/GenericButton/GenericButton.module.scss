@@ -1,0 +1,50 @@
+.buttonContainer {
+  min-width: max-content;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 1.6vh 3.5vh;
+  text-decoration: none;
+  border-top-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  font-weight: bolder;
+  font-size: 4vmin;
+  margin: 2vh;
+  &:hover {
+    box-shadow: 5px 5px 0 #832a85;
+    color: #832a85;
+    border: 1px solid #832a85;
+  }
+  @media screen and (max-width: 900px) {
+    margin: 2vh auto 2vh 0;
+    font-size: 1.5vmax;
+    padding: 1vh 1.5vh;
+    &:hover {
+      box-shadow: 2.5px 2.5px 0 #fff;
+    }
+  }
+}
+
+.menuButton {
+  border: 1px solid grey;
+  color: grey;
+  @media screen and (max-width: 900px) {
+    margin: 2vmin;
+  }
+}
+
+.tileButton {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.active {
+  border: 1px solid #832a85;
+  color: #832a85;
+  box-shadow: 5px 5px 0 #832a85;
+}
+
+.iconContainer {
+  margin-left: 1vh;
+}

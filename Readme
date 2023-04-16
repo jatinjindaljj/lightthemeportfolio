@@ -1,1 +1,10 @@
 
+in order to visualise the website first make sure node and npm is installed 
+
+step 1 
+
+run  "yarn install"
+
+step 2 
+
+eun "yarn dev"

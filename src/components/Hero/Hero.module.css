@@ -1,0 +1,31 @@
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding: 20vh 0;
+}
+
+.heading {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 5vmax;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(180deg, #941597 0%, rgba(25, 108, 18, 0.83) 100%);
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  animation: setIn 500ms;
+}
+
+@keyframes setIn {
+  0% {
+    top: 100vh;
+  }
+  100% {
+    top: 50%;
+  }
+}/*# sourceMappingURL=Hero.module.css.map */
