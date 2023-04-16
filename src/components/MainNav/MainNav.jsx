@@ -7,7 +7,7 @@ const MainNav = () => {
   return (
     <div className={classes.mainNavContainer}>
       <Link className={classes.logo} to="/">
-        jatin jindal
+        Jatin Jindal
       </Link>
       <GenericButton
         name="menu"
