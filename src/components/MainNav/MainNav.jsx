@@ -11,7 +11,6 @@ const MainNav = () => {
       </Link>
       <GenericButton
         name="menu"
-        small
         onClick={() => {
           setActive(true);
         }}
@@ -19,14 +18,13 @@ const MainNav = () => {
       <button className={`${classes.navMenu} ${active && classes.active}`}>
         <GenericButton
           name="X"
-          small
           className={classes.closeButton}
           onClick={() => {
             setActive(false);
           }}
         />
-        <GenericButton name="Case studies" small />
-        <GenericButton name="About me " small />
+        <GenericButton name="Case studies" />
+        <GenericButton name="About me " />
       </button>
     </div>
   );
