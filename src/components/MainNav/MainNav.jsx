@@ -15,7 +15,7 @@ const MainNav = () => {
           setActive(true);
         }}
       />
-      <button className={`${classes.navMenu} ${active && classes.active}`}>
+      <div className={`${classes.navMenu} ${active && classes.active}`}>
         <GenericButton
           name="X"
           className={classes.closeButton}
@@ -25,7 +25,7 @@ const MainNav = () => {
         />
         <GenericButton name="Case studies" />
         <GenericButton name="About me " />
-      </button>
+      </div>
     </div>
   );
 };
