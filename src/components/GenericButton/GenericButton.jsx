@@ -7,7 +7,7 @@ const GenericButton = ({
   name,
   arrow,
   active,
-  small,
+
   onClick,
   className,
 }) => {
@@ -18,7 +18,6 @@ const GenericButton = ({
       className={`${classes.buttonContainer} ${className} ${
         arrow ? classes.tileButton : classes.menuButton
       } ${!arrow && active && classes.active}`}
-      style={small ? { fontSize: "2vmin" } : {}}
     >
       {name}
       {arrow && (
@@ -33,7 +32,6 @@ const GenericButton = ({
       className={`${classes.buttonContainer} ${
         arrow ? classes.tileButton : classes.menuButton
       } ${!arrow && active && classes.active}`}
-      style={small ? { fontSize: "2vmin" } : {}}
     >
       {name}
       {arrow && (

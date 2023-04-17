@@ -1,16 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classes from "./MainNav.module.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import GenericButton from "../GenericButton/GenericButton";
 const MainNav = () => {
   const [active, setActive] = useState(false);
+  const location = useLocation();
+  useEffect(() => {
+    setActive(false);
+  }, [location]);
   return (
     <div className={classes.mainNavContainer}>
       <Link className={classes.logo} to="/">
         Jatin Jindal
       </Link>
       <GenericButton
-        name="menu"
+        name="Menu"
         onClick={() => {
           setActive(true);
         }}
@@ -23,8 +27,16 @@ const MainNav = () => {
             setActive(false);
           }}
         />
-        <GenericButton name="Case studies" />
-        <GenericButton name="About me " />
+        <GenericButton
+          name="Case studies"
+          url="/"
+          active={location.pathname === "/"}
+        />
+        <GenericButton
+          name="About me "
+          url="/abouts"
+          active={location.pathname === "/abouts"}
+        />
       </div>
     </div>
   );

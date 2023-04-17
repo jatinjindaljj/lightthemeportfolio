@@ -14,6 +14,11 @@
   font-weight: 900;
   flex: 1;
 }
+@media screen and (max-width: 900px) {
+  .logo {
+    font-size: 3vh;
+  }
+}
 
 .navMenu {
   display: flex;
@@ -36,6 +41,6 @@
 
 .closeButton {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 2vmin;
+  right: 2vmin;
 }/*# sourceMappingURL=MainNav.module.css.map */

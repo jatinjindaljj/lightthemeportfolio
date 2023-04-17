@@ -10,8 +10,7 @@
   text-decoration: none;
   border-top-left-radius: 2vh;
   border-bottom-right-radius: 2vh;
-  font-weight: bolder;
-  font-size: 4vmin;
+  font-size: 3vmin;
   margin: 2vh;
 }
 .buttonContainer:hover {
@@ -22,7 +21,7 @@
 @media screen and (max-width: 900px) {
   .buttonContainer {
     margin: 2vh auto 2vh 0;
-    font-size: 1.5vmax;
+    font-size: 3vmax;
     padding: 1vh 1.5vh;
   }
   .buttonContainer:hover {

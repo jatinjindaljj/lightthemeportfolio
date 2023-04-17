@@ -1,0 +1,46 @@
+.caseStudyCardContainer {
+  width: calc(50% - 1vmin);
+  border-radius: 1vmin;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px rgb(189, 189, 189);
+}
+
+.cardImage {
+  width: 100%;
+}
+
+.cardDataSection {
+  padding: 2vmin;
+}
+
+.cardHeading {
+  font-size: 3vmin;
+  font-weight: 200;
+  padding-top: 1vmin;
+}
+
+.cardPara {
+  padding: 2vmin 0;
+  font-size: 2vmin;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: #0353b1;
+  font-size: 2vmin;
+  display: flex;
+  align-items: center;
+}
+.cardLink svg {
+  stroke: #0353b1;
+}
+
+.cardCommingSoon {
+  font-size: 2vmin;
+  color: lightgrey;
+  display: flex;
+  align-items: center;
+}
+.cardCommingSoon svg {
+  stroke: lightgrey;
+}/*# sourceMappingURL=CaseStudyCard.module.css.map */

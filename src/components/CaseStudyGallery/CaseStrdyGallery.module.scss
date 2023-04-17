@@ -1,0 +1,14 @@
+.caseStrdyGalleryContainer {
+  display: grid;
+  width: 100%;
+  //   background: black;
+  padding: 2vmin;
+  //   grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vmin;
+
+  @media screen and (max-width: 900px) {
+    // grid-template-columns: auto;
+  }
+}
