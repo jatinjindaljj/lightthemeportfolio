@@ -4,4 +4,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2vmin;
+  margin-bottom: 5vmin;
+}
+@media screen and (max-width: 900px) {
+  .caseStrdyGalleryContainer {
+    gap: 5vmin;
+  }
 }/*# sourceMappingURL=CaseStrdyGallery.module.css.map */

@@ -6,6 +6,13 @@
   align-items: center;
 }
 .footerContainer > a {
+  font-size: 2vmin;
   padding: 1vh;
   margin: 0.5vh 0;
+}
+@media screen and (max-width: 900px) {
+  .footerContainer > a {
+    font-size: 4.5vmin;
+    color: black;
+  }
 }/*# sourceMappingURL=Footer.module.css.map */

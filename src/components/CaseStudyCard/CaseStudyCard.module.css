@@ -15,37 +15,75 @@
 }
 
 .cardDataSection {
-  padding: 2vmin;
+  padding: 3vmin;
 }
 
 .cardHeading {
-  font-size: 3vmin;
+  font-weight: 900;
+  color: rgb(44, 44, 44);
+  font-size: 5vmin;
   font-weight: 200;
   padding-top: 1vmin;
 }
+@media screen and (max-width: 900px) {
+  .cardHeading {
+    font-size: 8vmin;
+  }
+}
 
 .cardPara {
+  color: rgb(49, 49, 49);
   padding: 2vmin 0;
-  font-size: 2vmin;
+  font-size: 3vmin;
+}
+@media screen and (max-width: 900px) {
+  .cardPara {
+    font-size: 4.5vmin;
+    padding: 4.5vmin 0;
+  }
 }
 
 .cardLink {
   text-decoration: none;
   color: #0353b1;
-  font-size: 2vmin;
+  font-size: 3vmin;
   display: flex;
   align-items: center;
 }
 .cardLink svg {
+  height: 3vmin;
+  width: 3.5vmin;
   stroke: #0353b1;
+}
+@media screen and (max-width: 900px) {
+  .cardLink {
+    font-size: 4.5vmin;
+  }
+  .cardLink svg {
+    height: 5vmin;
+    width: 5.5vmin;
+    stroke: #0353b1;
+  }
 }
 
 .cardCommingSoon {
-  font-size: 2vmin;
-  color: lightgrey;
+  font-size: 3vmin;
+  color: rgb(125, 125, 125);
   display: flex;
   align-items: center;
 }
 .cardCommingSoon svg {
-  stroke: lightgrey;
+  height: 3vmin;
+  width: 3.5vmin;
+  stroke: rgb(112, 112, 112);
+}
+@media screen and (max-width: 900px) {
+  .cardCommingSoon {
+    font-size: 4.5vmin;
+  }
+  .cardCommingSoon svg {
+    height: 5vmin;
+    width: 5.5vmin;
+    stroke: rgb(112, 112, 112);
+  }
 }/*# sourceMappingURL=CaseStudyCard.module.css.map */
